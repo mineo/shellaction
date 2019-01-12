@@ -1,3 +1,3 @@
 #!/bin/sh
 
-printf '%s\n' aaa
+printf '%s\n' aaabbb
