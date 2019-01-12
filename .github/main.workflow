@@ -11,5 +11,5 @@ action "Syntax check" {
 action "actions/bin/sh@master" {
   uses = "actions/bin/sh@master"
   needs = ["Syntax check"]
-  args = "echo foo"
+  args = ["echo", "foo"]
 }
